@@ -1,0 +1,499 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jun 14 09:30:36 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 18)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 17)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile (from 'Makefile', line 12)
+EXT = .c
+# makefile (from 'Makefile', line 26)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# makefile (from 'Makefile', line 14)
+OBJDIR = obj
+# environment
+USERPROFILE = C:\Users\ryant
+# environment
+LOCALAPPDATA = C:\Users\ryant\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a36e7b5c-425e-44d3-8a61-867ab58cc571-sock
+# environment
+VSCODE_CWD = C:\Users\ryant\AppData\Local\Programs\Microsoft VS Code
+# makefile (from 'Makefile', line 22)
+DELOBJ = $(OBJ)
+# environment
+SYSTEMROOT = C:\windows
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1200_AJLNHYUBRVQWQTVD
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ryant\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\ryant\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\ryant\OneDrive
+# makefile (from 'Makefile', line 19)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# makefile
+CURDIR := c:/Users/ryant/OneDrive/Documents/GitHub/neuralC
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from '0005tests.d', line 1)
+MAKEFILE_LIST := Makefile 0005gen_neural.d 0005main.d 0005mut_neural.d 0005run_neural.d 0005tests.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 1200
+# makefile (from 'Makefile', line 11)
+APPNAME = neuralC
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+ONLINESERVICES = Online Services
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\ryant\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\ryant
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\windows\system32\cmd.exe
+# environment
+WINDIR = C:\windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\ras\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Users\ryant\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ryant\AppData\Local\Programs\Python\Python310\;C:\Users\ryant\AppData\Local\Microsoft\WindowsApps;C:\Users\ryant\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ryant\AppData\Local\GitHubDesktop\bin;C:\Users\ryant\.dotnet\tools
+# environment
+COMPUTERNAME = DESKTOP-OHUU0OC
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\DESKTOP-OHUU0OC
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = ryant
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-OHUU0OC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 25)
+EXE = .exe
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 21)
+RM = rm
+# default
+MAKE_VERSION := 4.3
+# environment
+PLATFORMCODE = KV
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 8)
+LDFLAGS = 
+# makefile (from 'Makefile', line 24)
+DEL = del
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-OHUU0OC
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\ryant\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ryant\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d77f4d5d0e997a455de146fb667f43b0-1.67.1-main-sock
+# makefile (from 'Makefile', line 13)
+SRCDIR = src
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -std=c11 -Wall
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+REGIONCODE = APJ
+# environment
+PROCESSOR_REVISION = 5000
+# makefile (from 'Makefile', line 6)
+CC = gcc
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=14/178=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key c:/Users/ryant/OneDrive/Documents/GitHub/neuralC/src, mtime 1641509558): 7 files, no impossibilities.
+# . (key c:/Users/ryant/OneDrive/Documents/GitHub/neuralC, mtime 1649383176): 15 files, no impossibilities.
+
+# 22 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: src/%.c
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+obj/%.o: src/%.c
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(DEL) $(DEP)
+
+obj/0005gen_neural.o: src/0005gen_neural.c src/0005gen_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005gen_neural'
+#  Last modified 2022-04-08 11:58:19
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+src/0005run_neural.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-08 11:59:05
+#  File has been updated.
+#  Successfully updated.
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(RM) $(DEP)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-08 11:59:34
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/0005tests.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 08:59:26
+#  File has been updated.
+#  Successfully updated.
+
+0005tests.d: src/0005tests.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005tests'
+#  Last modified 2022-06-14 09:30:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+
+obj/0005run_neural.o: src/0005run_neural.c src/0005run_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005ru 
+n_neural'
+#  Last modified 2022-04-08 11:59:08
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+src/0005gen_neural.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-08 11:58:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/0005mut_neural.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-08 11:58:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: neuralC
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+obj/0005mut_neural.o: src/0005mut_neural.c src/0005mut_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005mut_neural'
+#  Last modified 2022-04-08 11:58:47
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+0005run_neural.d: src/0005run_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005run_neural'
+#  Last modified 2022-06-14 09:30:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+src/0005main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-22 15:33:40
+#  File has been updated.
+#  Successfully updated.
+
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+
+neuralC: obj/0005gen_neural.o obj/0005main.o obj/0005mut_neural.o obj/0005run_neural.o obj/0005tests.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := neuralC
+# automatic
+# * := 
+# automatic
+# < := obj/0005gen_neural.o
+# automatic
+# + := obj/0005gen_neural.o obj/0005main.o obj/0005mut_neural.o obj/0005run_neural.o obj/0005tests.o
+# automatic
+# % := 
+# automatic
+# ^ := obj/0005gen_neural.o obj/0005main.o obj/0005mut_neural.o obj/0005run_neural.o obj/0005tests.o
+# automatic
+# ? := obj/0005gen_neural.o obj/0005main.o obj/0005mut_neural.o obj/0005run_neural.o obj/0005tests.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
+#  recipe to execute (from 'Makefile', line 36):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+0005mut_neural.d: src/0005mut_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005mut_neural'
+#  Last modified 2022-06-14 09:30:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+0005main.d: src/0005main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005main'
+#  Last modified 2022-06-14 09:30:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+0005gen_neural.d: src/0005gen_neural.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005gen_neural'
+#  Last modified 2022-06-14 09:30:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+obj/0005main.o: src/0005main.c src/0005main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005main'
+#  Last modified 2022-04-08 11:58:20
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean cleandep cleanw cleandepw
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/0005tests.o: src/0005tests.c src/0005tests.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '0005tests'
+#  Last modified 2022-04-08 11:59:08
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# files hash-table stats:
+# Load=25/1024=2%, Rehash=0, Collisions=8/95=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 575 B / avg = 12 B
+# current buf: size = 8162 B / used = 575 B / count = 47 / avg = 12 B
+
+# strcache performance: lookups = 120 / hit rate = 60%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=0/120=0%
+# Finished Make data base on Tue Jun 14 09:30:36 2022
+
+ 

@@ -1,0 +1,12 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/ryant/OneDrive/Documents/GitHub/neuralC'
+ 
+gcc -std=c11 -Wall -o obj/0005gen_neural.o -c src/0005gen_neural.c
+ 
+gcc -std=c11 -Wall -o obj/0005main.o -c src/0005main.c
+gcc -std=c11 -Wall -o obj/0005mut_neural.o -c src/0005mut_neural.c
+gcc -std=c11 -Wall -o obj/0005run_neural.o -c src/0005run_neural.c
+gcc -std=c11 -Wall -o obj/0005tests.o -c src/0005tests.c
+gcc -std=c11 -Wall -o neuralC obj/0005gen_neural.o obj/0005main.o obj/0005mut_neural.o obj/0005run_neural.o obj/0005tests.o 
+make: Leaving directory 'c:/Users/ryant/OneDrive/Documents/GitHub/neuralC'
+ 
