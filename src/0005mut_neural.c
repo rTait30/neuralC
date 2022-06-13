@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include <unistd.h>
+#include <io.h>
 
 int calculateActiveNeurons(int neuronNo[10000], double Scale[10000], int position);
 

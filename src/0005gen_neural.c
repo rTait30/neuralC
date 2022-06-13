@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include <unistd.h>
+#include <io.h>
 
 void print_network_position(int neuronNos[10000], double Scales[10000], int position) {
 

@@ -259,7 +259,7 @@ double Evolve1_Test1(int neuronNos[10000], double Scale[10000], double width, do
 
 					if (iteration == 0) {
 
-						if (highest_score > top_score) {
+						if (highest_score > top_score && generation > 100) {
 
 							//printf("highest_score = %lf\n", highest_score);
 						

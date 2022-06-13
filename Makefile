@@ -10,7 +10,7 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = neuralC
 EXT = .c
-SRCDIR = G:\prog\neuralC\v00\052\src
+SRCDIR = src
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
